@@ -7,35 +7,35 @@
 
 The science behind mask safety has certainly evolved since the onset of the pandemic. With the exception of the early months, masks have mostly been either recommended or required wear in public areas. As the mandates on mask-wearing continue to shift in the uncertain and fluctuating landscape of COVID-19, one aspect of the discussion is the proper and most effective way to wear a mask.
 
-This topic continues to be of increasing concern with the influx of more contagious variants that are learned to be more airborn than previous versions of the virus. Data Scientists working in public health - particularly in environmental and/or epidemiological settings - often work collaboratively with professionals from other departments on projects to address issues like:
+This topic is of increasing concern with the influx of more contagious variants, learned to be more airborn than previous versions of the virus. Data Scientists working in public health - particularly in environmental and/or epidemiological settings - often work collaboratively with professionals from other departments on projects to address issues like:
 
-clean water and/or air quality testing
-mother-child/infant adverse risk prevention
-lead paint poisoning
-infectious disease spread
+- clean water and/or air quality testing
+- mother-child/infant adverse risk prevention
+- lead paint poisoning
+- infectious disease spread
 
 
 # PROPOSAL
 
-An Infectious Disease expert at the local Department of Health is implementing an innovative new program that identifies improper mask detection. How can you help them create an effective filter and group the traffic?
+A machine-learning algorithm is being created that can detect & identify incorrect mask-wearing in New York City for indoor establishments. This detection product will be marketed to establishments as part of the new "Keys to the City(all NYers having to be masked + show proof of vaccination)" program; especially in high-infection areas, based on COVID tracking (DOHMH) data.
 
 
 # The Data
 
-The data for this project consisted of one zipped folder; inside of which three folders of unlabeled image data exist. Each image folder is labeled, however, for each class it belongs to, and holds roughly 3000 images;
+The data for this project consisted of one zipped folder; inside of which three folders of image data exist. Each image folder is labeled for each class it belongs to, and holds roughly 3000 images;
 
 - 3000 for "with_mask"
 - 2994 "without_mask"
 - 2994 "mask_weared_incorrect"
 
-Many datasets on mask detection come imbalanced and uncleaned; however, this dataset was adjusted (from an original dataset) so that each class had a similar distribution of images and noisy images that could be considered outliers were removed.
-
-- https://github.com/mwarnsle1/Cap_3_Unsupervised_Learning
+Many datasets on mask detection come imbalanced and uncleaned; however, this dataset was adjusted (from an original dataset) so that each class had a similar distribution of images and noisy images that could be considered outliers were removed. Below, you can find the original and cleaned datasets:
 
 Original datasets:
-
 - https://www.kaggle.com/ashishjangra27/face-mask-12k-images-dataset
 - https://www.kaggle.com/andrewmvd/face-mask-detection
+
+Cleaned dataset:
+- https://www.kaggle.com/vijaykumar1799/face-mask-detection
 
 
 # Methods
