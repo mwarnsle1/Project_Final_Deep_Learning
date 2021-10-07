@@ -1,6 +1,6 @@
 # Final_Cap_Deep_Learning
 
-# The Face Mask Identifier - Software for Infectious Disease Dept
+# The Face Mask Identifier - Machine-Learning for Public Health
 
 
 # Overview
