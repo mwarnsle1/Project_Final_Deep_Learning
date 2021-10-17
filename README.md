@@ -1,4 +1,4 @@
-# Final_Cap_Deep_Learning
+# Project Final - Deep Learning
 
 # The Face Mask Identifier - Machine-Learning for Public Health
 
