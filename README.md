@@ -1,6 +1,6 @@
 # Project Final - Deep Learning
 
-# The Face Mask Identifier - Machine-Learning for Public Health
+# The Face Mask Identifier - Machine-Learning for Public Health  
 
 
 # Overview
